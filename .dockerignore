@@ -1,0 +1,12 @@
+# Only package files, tsconfig.json and src/ are copied into the image; keep secrets and bulk out of the context.
+.env
+.env.*
+node_modules
+dist
+data
+test
+openspec
+.claude
+.codex
+.git
+*.log
